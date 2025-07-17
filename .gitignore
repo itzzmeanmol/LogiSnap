@@ -1,0 +1,19 @@
+# Ignore virtual environments and build artifacts
+.venv/
+dist/
+build/
+Dataset/
+
+# Ignore compiled, executable, and binary files
+*.exe
+*.dll
+*.pkg
+*.lib
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db
